@@ -1,0 +1,44 @@
+body {
+    color:darkred;
+    background-color:lightgoldenrodyellow;
+    font-size:1.25em;
+    font-family:Cambria,Georgia,"Book Antiqua",serif;
+}
+h1 {
+    color:darkred;
+    font-style:italic;
+}
+
+h2 {
+    background-color:lightgoldenrodyellow; 
+    width:fit-content;
+    font-weight:200;
+}
+
+h3 {
+    font-weight:200;
+}
+
+h4 {
+    font-weight:200;
+}
+
+em {
+    background-color:aliceblue
+}
+
+a:link {
+    color:olive
+}
+
+a:visited {
+    color:black
+}
+
+a:hover {
+    color:blue
+}
+
+a:active {
+    color:white
+}
