@@ -96,3 +96,19 @@ footer {
       margin-right: 10px; /* Smaller right margin */
     }
   }
+
+  /* Portrait mode (height > width) */
+@media (orientation: portrait) {
+    .my-element {
+      width: 90%;  /* Full width in portrait */
+      margin-top: 20px;  /* Add some space at the top in portrait */
+    }
+  }
+  
+  /* Landscape mode (width > height) */
+  @media (orientation: landscape) {
+    .my-element {
+      width: 60%;  /* Make the element smaller in landscape mode */
+      margin-top: 50px;  /* Add some space on top in landscape mode */
+    }
+  }
